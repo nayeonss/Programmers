@@ -1,4 +1,3 @@
 def solution(n, t):
-    for i in range(1, t + 1):
-        n *= 2
-    return n
+    answer = 2 ** t * n
+    return answer
